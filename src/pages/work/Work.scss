@@ -1,0 +1,20 @@
+@import "../../variables/var";
+
+.work-top-section{
+    background: $bgcolor;
+    color: $color;
+    padding: 8rem 0;
+    border-bottom: 2px solid $color;
+    margin: 0 12rem;
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+        padding: 2rem;
+        color: $color2;
+    }
+    p{
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 0 4rem;
+    }
+}

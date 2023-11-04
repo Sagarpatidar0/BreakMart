@@ -1,0 +1,74 @@
+[
+    {
+        "Sno": "01",
+        "logourl": "/src/assets/images/2.png",
+        "title": "Tech Marvels Mart: Where Augmented Realities Collide",
+        "points": [
+            "Instagram AR",
+            "Snapchat AR",
+            "TikTok AR",
+            "Web AR",
+            "Interactive Videos",
+            "Messenger Bots",
+            "Your Personalized 2d,3d character"
+        ]
+    },
+    {
+        "Sno": "02",
+        "logourl": "/src/assets/images/3.png",
+        "title": "Designers' Haven: Where Creativity Meets Commerce",
+        "points": [
+            "Banners & Posters",
+            "Illustrations",
+            "Social Media Content",
+            "Offline Activations",
+            "3D 2D Modelling & Designing",
+            "Website & Landing Page Designing",
+            "WhatsApp, Discord gif & Sticker Packs"
+        ]
+    },
+    {
+        "Sno": "03",
+        "logourl": "/src/assets/images/4.png",
+        "title": "The Digital Bazaar: Unveiling the World of Social Media Marketing",
+        "points": [
+            "Digital Marketing & Social Media Management",
+            "Personal Branding for Founders",
+            "Influencer Marketing",
+            "Paid Marketing",
+            "SEO"
+        ]
+    },
+    {
+        "Sno": "04",
+        "logourl": "/src/assets/images/5.png",
+        "title": "Developers' Den: Where Codes Are Crafted",
+        "points": [
+            "Brand & Marketing Campaigns - Concept, Strategy & Production",
+            "TV & Digital Commercials",
+            "Animations - 2D & 3D Content",
+            "Video Production & Post-Production",
+            "IP Content"
+        ]
+    },
+    {
+        "Sno": "05",
+        "logourl": "/src/assets/images/6.png",
+        "title": "ScalingMart: A Vibrant Fusion of Business Tools and Services",
+        "points": [
+            "Pitch Deck For Your business or startup",
+            "GST SERVICES",
+            "COMPANY SERVICES",
+            "INCOME TAX & ACCOUNTING",
+            "DSC SERVICES",
+            "CA SERVICES",
+            "LISCENSE ",
+            "TRADEMARK",
+            "PATENT, ISO",
+            "GEM REGISTRATION",
+            "SHIPROCKET",
+            "COURIER SERVICE"
+        ]
+    }
+    
+]

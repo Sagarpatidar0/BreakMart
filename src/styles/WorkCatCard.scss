@@ -1,0 +1,109 @@
+@import "../variables/var";
+
+.work-cat-card {
+    padding: 3rem 2rem;
+    /* Reduce padding for smaller screens */
+    color: $color2;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 160rem;
+
+    .left {
+        width: 100%;
+        /* Take up the full width on smaller screens */
+        padding: 2rem 0;
+        border-bottom: 3px solid $color;
+
+        .wcc-sno {
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+
+        .wcc-logo {
+            img {
+                width: 40%;
+                aspect-ratio: 3/1;
+            }
+        }
+
+        .wcc-detail {
+            padding-top: 2rem;
+
+            p {
+                font-size: 1.8rem;
+                padding: 1rem 0;
+            }
+
+            ul {
+                padding: 1rem 1.5rem;
+
+                li {
+                    font-size: 1.6rem;
+                    padding: 0.5rem 0;
+                }
+            }
+
+            a {
+                text-decoration: none;
+
+                button {
+                    font-size: 1.6rem;
+                    background: $bgcolor;
+                    font-weight: 500;
+                    width: 100%;
+                    color: $color;
+                    border-radius: 4rem;
+                    border: 2px solid #D86860;
+                    padding: 1rem 3rem;
+                    cursor: pointer;
+
+                    &:hover {
+                        background: $color2;
+                        border: 2px solid $color2;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    .right {
+        // border-bottom: 3px solid $color;
+        width: 100%;
+        /* Take up the full width on smaller screens */
+
+        img {
+            width: 100%;
+            border: 2px solid $color2;
+            margin-bottom: 3rem;
+        }
+    }
+
+    @media (min-width: 768px) {
+        padding: 3rem 12rem;
+
+        /* Restore padding for larger screens */
+        .left {
+            width: 50%;
+
+            .wcc-detail {
+                a {
+                    button {
+                        width: 160px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            border-bottom: 3px solid $color;
+            width: 50%;
+            img{
+                width: 100%;
+                aspect-ratio: 1/.7;
+            }
+        }
+    }
+}

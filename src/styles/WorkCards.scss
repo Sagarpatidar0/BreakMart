@@ -1,0 +1,16 @@
+@import "../variables/var";
+
+.sw-h2{
+    font-size: 12rem;
+    font-family: Khteka Light, sans-serif;
+    font-weight: 500;
+    color: $bgcolor;
+    background: $color;
+    padding: 2rem;
+}
+
+.work-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
