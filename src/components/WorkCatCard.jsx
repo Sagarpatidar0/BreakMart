@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/WorkCatCard.scss";
 import PropTypes from 'prop-types';
 
@@ -18,9 +19,9 @@ const WorkCatCard = ({ item }) => {
                             <li key={index}>{point}</li>
                         ))}
                     </ul>
-                    <a href="#">
+                    <Link to={`works/${item.Sno}`}>
                         <button>View Work</button>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className="right">

@@ -1,25 +1,50 @@
+import { useEffect } from "react";
 import WorkCards from "../../components/WorkCards"
 import "./Singlework.scss"
+import { useParams } from "react-router-dom";
+
 const Singlework = () => {
-    
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+      },[])
+
+    const { cate } = useParams();
+
+    const data = [{
+        title: "Featured Works",
+        // works: {
+        //     name: "Break Mart",
+        //     imgurl: "https://www.cloudways.com/blog/wp-content/uploads/Main-Image_750x394-8.jpg",
+        // }
+    },{
+        title: "Categories",
+        // works: {
+        //     name: "Break Mart",
+        //     imgurl: "https://www.cloudways.com/blog/wp-content/uploads/Main-Image_750x394-8.jpg",
+        // }
+    }]
   return (
     <div className="Singlework">
-        <h1>Break Mart</h1>
+        <h1>{`Break Mart${cate}`}</h1>
         <div className="sw-container">
             <div className="sw-left">
-                <a href="#">Work</a>
-                <a href="#">Featured</a>
-                <a href="#">Categories</a>
-                <a href="#">info</a>
+                <a href="#featured" >Featured Works</a>
+                <a href="#categories" >Categories</a>
             </div>
             <div className="sw-right">
                 <h1>Right</h1>
             </div>
         </div>
-            <WorkCards />
+        <div className="sw-video">
+        </div>
+        
+         <WorkCards data={data[0]} />
+         <WorkCards data={data[1]} />
         
     </div>
   )
 }
+
 
 export default Singlework

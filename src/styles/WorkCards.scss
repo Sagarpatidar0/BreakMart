@@ -7,10 +7,14 @@
     color: $bgcolor;
     background: $color;
     padding: 2rem;
+    @media screen and (max-width: 768px) {
+        font-size: 4rem;
+        
+    }
 }
 
 .work-cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: left;
 }
