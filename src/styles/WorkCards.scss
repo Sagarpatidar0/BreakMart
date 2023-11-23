@@ -16,5 +16,7 @@
 .work-cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
+    padding: 7rem 0;
+    gap: 6rem;
 }
