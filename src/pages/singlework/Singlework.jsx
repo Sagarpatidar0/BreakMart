@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import WorkCards from "../../components/WorkCards"
 import "./Singlework.scss"
 import { useParams } from "react-router-dom";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const Singlework = () => {
 
@@ -25,6 +27,8 @@ const Singlework = () => {
         // }
     }]
   return (
+    <>
+    <Navbar/>
     <div className="Singlework">
         <h1>{`Break Mart${cate}`}</h1>
         <div className="sw-container">
@@ -38,11 +42,12 @@ const Singlework = () => {
         </div>
         <div className="sw-video">
         </div>
-        
          <WorkCards data={data[0]} />
          <WorkCards data={data[1]} />
         
     </div>
+    <Footer />
+    </>
   )
 }
 
